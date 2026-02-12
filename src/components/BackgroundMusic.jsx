@@ -27,7 +27,7 @@ function BackgroundMusic({ shouldPlay }) {
             preload="auto"
         >
             {/* Using a free romantic music URL - you can replace this with your own music file */}
-            <source src="/music/romantic-music.mp3" type="audio/mpeg" />
+            <source src="music/romantic-music.mp3" type="audio/mpeg" />
             {/* Fallback to a web-hosted romantic music if local file doesn't exist */}
             Your browser does not support the audio element.
         </audio>

@@ -4,7 +4,7 @@ import './Gallery.css';
 
 function Gallery() {
     const [showModal, setShowModal] = useState(false);
-    const photos = Array.from({ length: 6 }, (_, i) => `/images/photo${i + 1}.jpg`);
+    const photos = Array.from({ length: 6 }, (_, i) => `images/photo${i + 1}.jpg`);
 
     const containerVariants = {
         hidden: { opacity: 0 },
@@ -164,7 +164,7 @@ function Gallery() {
                                     transition={{ delay: 0.2 }}
                                 >
                                     <img
-                                        src="/images/fav1.jpg"
+                                        src="images/fav1.jpg"
                                         alt="Favorite 1"
                                         onError={(e) => {
                                             e.target.src = 'https://via.placeholder.com/500x500/ff6b9d/ffffff?text=Fav+1';
@@ -179,7 +179,7 @@ function Gallery() {
                                     transition={{ delay: 0.4 }}
                                 >
                                     <img
-                                        src="/images/fav2.jpg"
+                                        src="images/fav2.jpg"
                                         alt="Favorite 2"
                                         onError={(e) => {
                                             e.target.src = 'https://via.placeholder.com/500x500/ff6b9d/ffffff?text=Fav+2';
